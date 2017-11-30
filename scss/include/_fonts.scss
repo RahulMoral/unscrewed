@@ -1,0 +1,39 @@
+/* ================
+*  @font face
+=================== */
+@font-face {
+    font-family: 'Brown-Bold';
+    src: url('../fonts/Brown-Bold.eot');
+    src: url('../fonts/Brown-Bold.woff2') format('woff2'),
+         url('../fonts/Brown-Bold.woff') format('woff'),
+         url('../fonts/Brown-Bold.ttf') format('truetype'),
+         url('../fonts/Brown-Bold.svg#Brown-Bold') format('svg'),
+         url('../fonts/Brown-Bold.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Brown-Regular';
+    src: url('../fonts/Brown-Regular.eot');
+    src: url('../fonts/Brown-Regular.woff2') format('woff2'),
+         url('../fonts/Brown-Regular.woff') format('woff'),
+         url('../fonts/Brown-Regular.ttf') format('truetype'),
+         url('../fonts/Brown-Regular.svg#Brown-Regular') format('svg'),
+         url('../fonts/Brown-Regular.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NoeDisplay-Bold';
+    src: url('../fonts/NoeDisplay-Bold.eot');
+    src: url('../fonts/NoeDisplay-Bold.woff2') format('woff2'),
+         url('../fonts/NoeDisplay-Bold.woff') format('woff'),
+         url('../fonts/NoeDisplay-Bold.ttf') format('truetype'),
+         url('../fonts/NoeDisplay-Bold.svg#NoeDisplay-Bold') format('svg'),
+         url('../fonts/NoeDisplay-Bold.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+/* ================
+*  @font face end
+=================== */

@@ -1,0 +1,84 @@
+/* ================
+*  Global
+=================== */
+* {
+    margin: 0;
+    padding: 0
+}
+*:focus {
+    outline: none !important;
+}
+* {
+    -webkit-tap-highlight-color: transparent !important;
+}
+$rem-baseline: 16px;
+html{
+    @include rem-baseline;
+}
+body{
+    background-color: $color-white-smoke;
+    @include font-Brown-Regular;
+    font-size: rem(13px);
+    line-height: 1.2;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+}
+[role="button"]{
+    cursor: pointer;
+}
+/* Container resetting */
+.container{
+    max-width: 100%;
+    width: 100%;
+    @include media-breakpoint-up(sm){
+        max-width: 540px;
+        width: 540px;
+    }
+    @include media-breakpoint-up(md){
+        max-width: 720px;
+        width: 720px;
+    }
+    @include media-breakpoint-up(lg){
+        max-width: 960px;
+        width: 960px;
+    }
+    @include media-breakpoint-up(xl){
+        max-width: 1140px;
+        width: 1140px;
+    }
+}
+/* Landing page common CSS*/
+.landing-main{
+    padding-top: rem(70px);
+}
+.button-group{
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    font-size: rem(21px);
+    @include font-Brown-Bold;
+    height: rem(60px);
+    transition: box-shadow 0.3s ease-in-out 0s;
+    width: rem(255px);
+    &.button-group-white{
+        background-color: white;
+        color: $color-nero;
+    }
+    &.button-group-black{
+        background-color: $color-nero;
+        color: white;
+    }
+    &:hover{
+        box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.4);
+        text-decoration: none;
+    }
+}
+//.md-off{
+//    @include media-breakpoint-between(md, md){
+//        display: none !important;
+//    }
+//}
+/* ================
+*  Global end
+=================== */

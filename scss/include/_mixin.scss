@@ -1,0 +1,37 @@
+@mixin font-Brown-Bold{
+    font-family: 'Brown-Bold', sans-serif;
+}
+@mixin font-Brown-Regular{
+    font-family: 'Brown-Regular', sans-serif;
+}
+@mixin font-NoeDisplay-Bold{
+    font-family: 'NoeDisplay-Bold', sans-serif;
+}
+// Transition mixin
+@mixin transition-color{
+    transition: color 0.3s ease-in-out 0s;
+}
+@mixin transition-background{
+    transition: background-color 0.3s ease-in-out 0s;
+}
+@mixin transition-border{
+    transition: border-color 0.3s ease-in-out 0s;
+}
+@mixin transition-background-color{
+    transition: background-color 0.3s ease-in-out 0s, color 0.3s ease-in-out 0s;
+}
+@mixin transition-border-color{
+    transition: border-color 0.3s ease-in-out 0s, color 0.3s ease-in-out 0s;
+}
+@mixin transition-background-border-color{
+    transition: background-color 0.3s ease-in-out 0s, border-color 0.3s ease-in-out 0s, color 0.3s ease-in-out 0s;
+}
+@mixin transition-padding{
+    transition: padding 0.3s ease-in-out 0s;
+}
+@mixin transition-background-border-color-padding{
+    transition: background-color 0.3s ease-in-out 0s, border-color 0.3s ease-in-out 0s, color 0.3s ease-in-out 0s, padding 0.3s ease-in-out 0s;
+}
+@mixin transition-width{
+    transition: width 0.3s ease-in-out 0s;
+}

@@ -1,0 +1,45 @@
+/* ================
+*  Header
+=================== */
+.landing-header-menu{
+    background-color: white;
+    box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.15);
+    .logo{
+        display: flex;
+        flex-direction: column;
+        width: 100px;
+        @media (min-width: 410px){
+            width: auto;
+        }
+    }
+    .landing-header-menu-item{
+        background-color: transparent;
+        color: $color-nero;
+        font-size: rem(12px);
+        @include font-Brown-Bold;
+        height: rem(40px);
+        padding-left: rem(10px);
+        padding-right: rem(10px);
+        @include transition-background;
+        @media (min-width: 360px){
+            font-size: rem(16px);
+            padding-left: rem(15px);
+            padding-right: 15px;
+        }
+        &:not(:last-child){
+            margin-right: rem(10px);
+        }
+        i{
+            font-size: rem(18px);
+        }
+        &:hover,
+        &:focus,
+        &.active{
+            background-color: $color-white-smoke;
+            text-decoration: none;
+        }
+    }
+}
+/* ================
+*  Header end
+=================== */
